@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="Conalep-logo.png">
+		<title> Conalep </title> 
+		<link rel="stylesheet" href="Estilos.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />	</head>
+	<body>
+		<header>
+			<h1> Pagina de Venta de Computadoras </h1>
+			<nav>
+				<ul>
+					<li><a href="Index.html"><span class="material-symbols-outlined"> home </span>  Pagina Principal </a></li>
+					<li><a href="Pc.html" title="Venta de Computadoras"> <span class="material-symbols-outlined"> laptop_windows </span>Computadoras </a></li>
+					<li><a href="Ram.html" title="Venta de Memoria Ram"> <span class="material-symbols-outlined"> memory </span> Memorias Ram </a></li>
+					<li><a href="Dd.html" title="Venta de Discos Duros"><span class="material-symbols-outlined"> hard_disk </span> Discos Duros </a></li>
+					<li><a href="Ssd.html" title="Ventas de Discos Solidos"><span class="material-symbols-outlined"> save </span> Discos Solidos </a></li>
+					<li><a href="Procesadores.html" title="Venta de Procesadores"><span class="material-symbols-outlined"> developer_board </span> Procesadores </a></li>
+					<li><a href="Contacto.html"><span class="material-symbols-outlined"> contacts </span> Contacto </a></li>
+					<li><a href="Procesadores.html" title="Venta de Procesadores"><span class="material-symbols-outlined"> developer_board </span> Procesadores </a></li>
+					<li><a href="Mejores.html" title="Recomendaciones"><span class="material-symbols-outlined"> reviews </span> Recomendaciones </a></li>
+
+			
+				</ul>
+			</nav>		
+		</header>
+		<main>
+			<h2> Bienvenidos a Tecnologia Conalep </h2>
+			<img src="conalepInsc.png" alt="Error al cargar la imagen" width="500" height="300">
+			<p> Pagina dedicada a la venta de equipo de computo </p>
+			<p> Aqui encontramos tambien todo el hardware y software que necesites </p>
+			<button onclick="cambiarColor()">Cambiar Color</button>
+		</main>
+		<footer>
+			<p><br><br><br>  Tecnologia Conalep. Todos los derechos reservados </p>
+		</footer>
+
+		<script>
+			function cambiarColor() {
+				const colores = ["#ff5733", "#33ff57", "#5733ff", "#ff33a8", "#33a8ff"];
+				const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+				document.body.style.backgroundColor = colorAleatorio;
+			}
+		</script>
+	</body>
+</HTML>
